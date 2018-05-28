@@ -1,6 +1,6 @@
 #!/bin/bash
 #Create by R.I.P_C on 2018/05/27
-echo "Brew link error fixer v1.2.1"
+echo "Brew link error fixer v1.2.2"
 echo "by R.I.P_C"
 echo -e "\033[32m---------------------------------------\033[0m"
 echo -e "\033[31m$LOGNAME\033[0m at"
@@ -17,8 +17,8 @@ else
 fi
 
 if [ ! -w $dir ];then
-    echo -e "\033[32m$LOGNAME は $dir に書き権限がありません。操作します。\033[0m"
+    echo -e "\033[32m$LOGNAME does not have writing permission in $dir . input sudo password to proceed.\033[0m"
     sudo chown -R $LOGNAME:admin $dir
 else
-    echo -e  "\033[31m$LOGNAME は$dir に書き権限があります。操作不要。\033[0m"
+    echo -e  "\033[31m$LOGNAME does have writing permission in $dir .\033[0m"
 fi
