@@ -1,6 +1,6 @@
 #!/bin/bash
 #Create by R.I.P_C on 2018/05/27
-echo "Brew link error fixer v1.3.0"
+echo "Brew link error fixer v1.3.1"
 echo "by R.I.P_C"
 echo -e "\033[32m---------------------------------------\033[0m"
 echo -e "\033[31m$LOGNAME\033[0m at"
